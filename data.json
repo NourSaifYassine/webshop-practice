@@ -1,0 +1,30 @@
+[
+    {
+        "src": "./img/grey.jpg",
+        "title": "Grey T-Shirt",
+        "price": 8,
+        "stock": 4,
+        "amount": 0
+    },
+    {
+        "src": "./img/blue.jpg",
+        "title": "Blue T-shirt",
+        "price": 8,
+        "stock": 4,
+        "amount": 0
+    },
+    {
+        "src": "./img/red.webp",
+        "title": "Red T-Shirt",
+        "price": 8,
+        "stock": 4,
+        "amount": 0
+    },
+    {
+        "src": "./img/pink.jpg",
+        "title": "Pink T-Shirt",
+        "price": 8,
+        "stock": 4,
+        "amount": 0
+    }
+]

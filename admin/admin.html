@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - T-Shirt Store</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+    <nav>
+        <h1><a href="../index.html">T-Shirt Store</a></h1>
+        <div>
+            <a onclick="itemClicked()" id="cart"><img src="../svg/cart.svg" alt="svg cart"></a>
+            <div class="divider"></div>
+            <a href="../admin/admin.html" id="panel">Admin</a>
+        </div>
+    </nav>
+    <hr>
+
+    <div class="admin-dashboard">
+        <h2>Admin Dashboard</h2>
+        <section id="product-management">
+            <h3>Product Management</h3>
+            <div id="product-list">
+            </div>
+        </section>
+
+        <section id="order-management">
+            <h3>Order Management</h3>
+            <div id="order-list">
+            </div>
+        </section>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
